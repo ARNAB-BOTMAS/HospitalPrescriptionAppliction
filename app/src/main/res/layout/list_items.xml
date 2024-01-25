@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20sp"
+    android:paddingEnd="20sp"
+    tools:ignore="RtlSymmetry">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/files"
+        android:contentDescription="@string/todo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/drNames"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="@string/doctor_s_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:ignore="MissingConstraints,RtlSymmetry"
+        tools:layout_editor_absoluteY="16dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:paddingStart="10sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

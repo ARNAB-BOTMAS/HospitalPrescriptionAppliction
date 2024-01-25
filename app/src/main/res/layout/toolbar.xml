@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7360DF">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7360DF"
+        tools:ignore="UselessParent"
+        android:padding="16sp">
+
+        <TextView
+            android:id="@+id/holderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            tools:ignore="RelativeOverlap"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/logOutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logout"
+            android:contentDescription="@string/todo"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

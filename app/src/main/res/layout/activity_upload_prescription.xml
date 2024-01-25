@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".UploadPrescriptionActivity"
+    >
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar1" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/DrName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/doctor_name"-->
+<!--        android:textSize="20sp"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:layout_marginBottom="20dp"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp">
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_date"
+            tools:ignore="MissingConstraints"
+            android:layout_marginEnd="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/datePre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/date"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingStart="10dp"
+                tools:ignore="RtlSymmetry" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/uploadPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prescription"/>
+        <ImageView
+            android:id="@+id/imageBtn"
+            android:layout_width="280sp"
+            android:layout_height="280sp"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/addPrescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_prescription"
+        android:visibility="gone"/>
+    <ProgressBar
+        android:id="@+id/progressImageUp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

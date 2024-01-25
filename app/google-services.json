@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361773186373",
+    "project_id": "hospital-prescription-app",
+    "storage_bucket": "hospital-prescription-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361773186373:android:775e81c36e3a86a1af522c",
+        "android_client_info": {
+          "package_name": "com.example.hospitalprescription"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4agCs-ojYK2qpJRU4PY7s4430eDXdOiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
