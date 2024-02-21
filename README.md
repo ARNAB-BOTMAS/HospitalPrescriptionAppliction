@@ -8,7 +8,6 @@ This repository contains the code for a hospital application built using Android
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The hospital application aims to streamline the process of managing prescriptions by providing a digital platform for doctors and patients. Doctors can create prescription files for each patient and upload prescription images for specific dates. Patients can then view their prescriptions through the application.
